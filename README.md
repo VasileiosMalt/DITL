@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Ditl_logo.png" alt="DITL Logo" width="200">
+  <img src="Ditl_logo.png" alt="DITL Logo" width="250">
 </p>
 
 <h1 align="center">DITL — Developer-In-The-Loop</h1>
