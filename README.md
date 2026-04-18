@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Ditl_logo.png" alt="DITL Logo" width="100">
+  <img src="Ditl_logo.png" alt="DITL Logo" width="300">
 </p>
 
 <h1 align="center">DITL — Developer-In-The-Loop</h1>
@@ -25,6 +25,7 @@ You tweak a prompt, change a threshold, bump a timeout — then re-run your app 
 - Slide a number, flip a boolean, rewrite an entire system prompt
 - Save changes directly to source — no copy-paste, no hunting for the right file
 - See a full history of every tweak you made and what changed
+- Run tests, re-toggle parameters, re-run as many times as you want until there is great success!
 
 No config files. No SDK. Just open your project folder and start tuning.
 
@@ -39,17 +40,18 @@ npm install → npm run dev → open folder → AI scans → tweak params → sa
 ---
 
 <p align="center">
-  <img src="docs/screenshots/home.png" alt="Home screen" width="720"><br>
+  <img src="https://raw.githubusercontent.com/VasileiosMalt/DITL/refs/heads/main/screenshots/frontend_DITL_1.png" alt="Home screen" width="720"><br>
   <em>Home — open any project and kick off an AI scan</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/params.png" alt="Parameters view" width="720"><br>
+  <img src="https://raw.githubusercontent.com/VasileiosMalt/DITL/refs/heads/main/screenshots/frontend_DITL_0.png" alt="Parameters view" width="720"><br>
+  <img src="https://raw.githubusercontent.com/VasileiosMalt/DITL/refs/heads/main/screenshots/frontend_DITL_3.png" alt="Parameters view" width="720"><br>
   <em>Parameters — every tunable knob, grouped by category</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/history.png" alt="History view" width="720"><br>
+  <img src="https://raw.githubusercontent.com/VasileiosMalt/DITL/refs/heads/main/screenshots/frontend_DITL_4.png" alt="History view" width="720"><br>
   <em>History — click any entry to inspect the full before/after diff</em>
 </p>
 
