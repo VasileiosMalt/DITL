@@ -18,12 +18,12 @@
 
 ## Why?
 
-You tweak a prompt, change a threshold, bump a timeout — then re-run your app to see what happens. Repeat fifty times.
+You tweak a prompt, change a threshold, bump a timeout, then re-run your app to see what happens. Repeat fifty times.
 
 **DITL automates the boring part.** Point it at any project, let AI scan every file, and get a single dashboard where you can:
 
 - Slide a number, flip a boolean, rewrite an entire system prompt
-- Save changes directly to source — no copy-paste, no hunting for the right file
+- Save changes directly to source. No copy-paste, no hunting for the right file
 - See a full history of every tweak you made and what changed
 - Run tests, re-toggle parameters, re-run as many times as you want until there is great success!
 
@@ -62,7 +62,7 @@ npm install → npm run dev → open folder → AI scans → tweak params → sa
 | | |
 |---|---|
 | **AI-Powered Discovery** | Scans your entire codebase and finds parameters, prompts, thresholds, feature flags — anything tunable |
-| **Live Editing** | Sliders for numbers, toggles for booleans, full text editors for prompts — changes write directly to your source files |
+| **Live Editing** | Sliders for numbers, toggles for booleans, full text editors for prompts. Changes write directly to your source files |
 | **Change History** | Every save is recorded with full before/after values, file paths, risk level, and timestamps. Click any entry to see the complete diff |
 | **Test Runner** | Auto-detects and runs your project's test suite after changes |
 | **Multi-Provider** | Works with OpenAI, Anthropic, OpenRouter, or **Ollama** for fully local, offline inference |
@@ -158,7 +158,7 @@ ditl/
 ## Security
 
 - **API keys are never stored in the project.** They live in `~/.ditl/settings.json` on your machine and are excluded from version control.
-- The renderer runs with `contextIsolation: true` and `nodeIntegration: false` — the UI can only call the explicitly exposed IPC methods.
+- The renderer runs with `contextIsolation: true` and `nodeIntegration: false`, and the UI can only call the explicitly exposed IPC methods.
 - No telemetry, no analytics, no network calls except to your chosen AI provider.
 
 ---
